@@ -24,9 +24,6 @@ static int		ft_determine_base(char *str)
 
 static int		ft_recursive_power(int nb, int power)
 {
-	int			res;
-
-	res = nb;
 	if (power < 0)
 		return (0);
 	if (power == 0)
